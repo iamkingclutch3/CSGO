@@ -16,8 +16,8 @@ import sys
 ScreenY = 1920
 ScreenX = 1080
      
-offsets = get('https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/offsets.json').json()
-client_dll = get('https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/client_dll.json').json()
+offsets = get('https://raw.githubusercontent.com/iamkingclutch3/CSGO/refs/heads/main/output/offsets.json').json() #https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/offsets.json
+client_dll = get('https://raw.githubusercontent.com/iamkingclutch3/CSGO/refs/heads/main/output/client_dll.json').json() #https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/client_dll.json
 dwEntityList = offsets["client.dll"]["dwEntityList"]
 dwLocalPlayerPawn = offsets["client.dll"]["dwLocalPlayerPawn"]
 dwViewMatrix = offsets["client.dll"]["dwViewMatrix"]
